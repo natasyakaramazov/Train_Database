@@ -1,0 +1,34 @@
+-- Run this script directly in the MySQL server query window it will automatically create the database and all the database objects.
+
+
+
+DROP TABLE IF EXISTS PASSENGER;
+CREATE TABLE PASSENGER ();
+
+DROP TABLE IF EXISTS TICKET;
+CREATE TABLE TICKET ();
+
+DROP TABLE IF EXISTS TRAIN;
+CREATE TABLE TRAIN ();
+
+DROP TABLE IF EXISTS TRAIN_STATUS;
+CREATE TABLE TRAIN_STATUS ();
+
+
+-- Insert all records 
+
+INSERT INTO PASSENGER VALUES ();
+
+INSERT INTO TICKET VALUES ();
+
+INSERT INTO TRAIN VALUES ();
+
+INSERT INTO TRAIN_STATUS VALUES ();
+
+
+-- Select Staements to validate all the tables were created properly
+SELECT * FROM PASSENGER;
+SELECT * FROM TICKET;
+SELECT * FROM TRAIN;
+SELECT * FROM TRAIN_STATUS;
+
