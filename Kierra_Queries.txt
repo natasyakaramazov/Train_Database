@@ -15,10 +15,13 @@ Abel|Maclead
 
 8. 
 
-select first_name, last_name from passenger where phone LIKE '605-___-____';
-Art|Venere
-Sage|Wieser
+
+ select first_name, last_name from passenger where phone LIKE '605-___-____' ORDER BY phone desc;
 Mattie|Poquette
+Sage|Wieser
+Art|Venere
+
+
 
 
 
