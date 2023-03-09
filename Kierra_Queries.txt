@@ -1,0 +1,24 @@
+
+
+3.
+
+ select first_name, last_name from passenger, train, booked  where   booked.train_number = train.train_number AND booked.passanger_ssn = passenger.ssn AND (available_on1 = 'Friday' or available_on2 = 'Friday' or available_on3 = 'Friday');
+
+Josephine|Darakjy
+Art|Venere
+Fletcher|Flosi
+Sage|Wieser
+Kris|Marrier
+Abel|Maclead
+
+
+
+8. 
+
+select first_name, last_name from passenger where phone LIKE '605-___-____';
+Art|Venere
+Sage|Wieser
+Mattie|Poquette
+
+
+
