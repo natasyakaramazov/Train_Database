@@ -1,0 +1,3 @@
+2. select Train_Name from Train as t, booked as b, Passenger as p where p.SSN = b.Passanger_ssn AND b.Train_Number=t.Train_Number AND first_name = 'Cammy' AND last_name='Albares';
+
+6. select first_name,last_name from Train as t, Passenger as p, booked as b where p.SSN = b.Passanger_ssn AND b.Train_Number=t.Train_Number AND trim(t.Train_Name)= trim('Golden Chariot') AND Staus = 'Booked';
