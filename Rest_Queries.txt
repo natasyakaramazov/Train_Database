@@ -1,0 +1,11 @@
+5. 
+
+select train_name, genseatsoccupied,premiumseatsoccupied from train_status;
+
+
+
+9. 
+
+select first_name, last_name from passenger,booked, train where booked.passanger_ssn = passenger.ssn AND booked.train_number = train.train_number AND (available_on1 = "Thursday" OR available_on2 = "Thursday" OR available_on3 = "Thursday") ORDER BY first_name, last_name asc;
+
+
