@@ -1,0 +1,49 @@
+Train_Name
+--------------
+Golden Arrow
+Golden Chariot
+first_name  last_name
+----------  ---------
+Josephine   Darakjy
+Art         Venere
+Fletcher    Flosi
+Sage        Wieser
+Kris        Marrier
+Abel        Maclead
+Train_Number  Train_Name    Source_Station  Destination_Station  first_name  last_name  Ticket_type  Staus
+------------  ------------  --------------  -------------------  ----------  ---------  -----------  ------
+3             Golden Arrow  Victoria        Dover                James       Butt       Premium      Booked
+TrainName         GenSeatsOccupied  PremiumSeatsOccupied
+----------------  ----------------  --------------------
+Orient Express    0                 0
+Flying Scottsman  5                 2
+Guwahati Express  4                 3
+Golden Chariot    7                 4
+first_name  last_name
+----------  ---------
+Art         Venere
+Gladys      Rim
+Yuki        Whobrey
+Fletcher    Flosi
+Sage        Wieser
+Kris        Marrier
+Minna       Amigon
+Abel        Maclead
+Kiley       Caldarera
+Graciela    Ruta
+Cammy       Albares
+Mattie      Poquette
+first_name  last_name  Train_Name
+----------  ---------  ---------------
+Minna       Amigon     Golden Arrow
+Abel        Maclead    Flying Scotsman
+Kiley       Caldarera  Golden Arrow
+Graciela    Ruta       Golden Arrow
+Cammy       Albares    Golden Arrow
+Mattie      Poquette   Golden Arrow
+Meaghan     Garufi     Golden Arrow
+first_name  last_name
+----------  ---------
+Mattie      Poquette
+Sage        Wieser
+Art         Venere
