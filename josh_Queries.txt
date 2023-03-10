@@ -1,4 +1,3 @@
-4: select TRAIN.Train_Number, Train_name, Source_Station, Destination_Station, first_name, last_name, Ticket_type, Staus from TRAIN,PASSENGER, BOOKED where bdate >= '1963/3/9' and bdate <= '1973/3/9' and TRAIN.Train_Number = BOOKED.Train_Number and BOOKED.Passanger_ssn = PASSE
-NGER.SSN;
+4: select TRAIN.Train_Number, Train_name, Source_Station, Destination_Station, first_name, last_name, Ticket_type, Staus from TRAIN,PASSENGER, BOOKED where bdate >= '1963/3/9' and bdate <= '1973/3/9' and TRAIN.Train_Number = BOOKED.Train_Number and BOOKED.Passanger_ssn = PASSENGER.SSN;
 
 7: select first_name, last_name,Train_Name from PASSENGER,BOOKED,TRAIN where Staus = 'WaitL' and PASSENGER.SSN = BOOKED.Passanger_ssn and BOOKED.Train_Number = TRAIN.Train_Number;
