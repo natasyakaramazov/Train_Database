@@ -1,6 +1,6 @@
 5. 
 
-select train_name, genseatsoccupied,premiumseatsoccupied from train_status;
+select trainname, genseatsoccupied,premiumseatsoccupied from train_status;
 
 
 
