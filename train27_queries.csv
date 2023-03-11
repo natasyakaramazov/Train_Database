@@ -1,6 +1,5 @@
 [2]:: select Train_Name from Train as t, booked as b, Passenger as p where p.SSN = b.Passanger_ssn AND b.Train_Number=t.Train_Number AND first_name = 'Cammy' AND last_name='Albares' AND b.staus = "Booked";
 Train_Name
-"Golden Arrow"
 "Golden Chariot"
 -------------------------------------------------------------------------------------------------
 
